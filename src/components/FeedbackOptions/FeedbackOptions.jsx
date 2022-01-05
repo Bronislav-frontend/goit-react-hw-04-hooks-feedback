@@ -9,8 +9,9 @@ function FeedbackOptions({ options, onFeedbackClick }) {
           <button
             type="button"
             className={`${s.btn} ${s[item]}`}
-            onClick={() => {
-              onFeedbackClick(item);
+            value={item}
+            onClick={e => {
+              onFeedbackClick(e);
             }}
           >
             {item}
