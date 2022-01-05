@@ -1,0 +1,29 @@
+.list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.btn {
+  color: whitesmoke;
+  width: 100px;
+  border-radius: 5px;
+  padding: 3px 0 3px 0;
+}
+
+.good {
+  background-color: rgb(0, 221, 0);
+}
+
+.bad {
+  background-color: red;
+}
+
+.neutral {
+  background-color: rgb(148, 148, 148);
+}
